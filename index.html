@@ -1,14 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title> Jeffrey E. Sabornido - Portfolio</title>
   <style>
     body { 
-      font-family: Arial; 
-      text-align: center; 
-      margin-top: 50px;
-      background-color: #f4f4f4;
+      font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      display: flex;
+      justify-content: center; 
+      align-items: center;
+      min-height: 100vh;
     }
+
+    .container {
+      display: flex;
+      align-items: center;
+      max-width: 900px;
+      gap: 50px;
+      padding: 20px;
+    }
+
+    .profile-pic {
+      width: 350px;
+      height: 350px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid white;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    .content {
+      text-align: left;
+      max-width: 500px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 5px;
+      color: #333;
+    }
+
+    .subtitle {
+      font-weight: bold;
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+      color: #555;
+    }
+
+    .button-container {
+      display: flex;
+      gap: 15px;
+      margin-top: 30px;
+    }
+
+    .circle-btn {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      font-size: 0.8rem;
+      border: 2px solid #333;
+      transition: transform 0.2s;
+    }
+
+    .circle-btn:hover {
+      transform: scale (1:1);
+    }
+
+    /*Colors*/
+
+    .btn-resume { background-color: #c5e063;}
+    .btn-research {background-color: #f6b26b;}
+    .btn-outreach { background-color: #76ced9;}
+    .btn-personal { background-color: #cccccc;}
+    
   </style>
 </head>
 <body>
